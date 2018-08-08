@@ -11,28 +11,9 @@
 		9038618B1D0D317F007397DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903861891D0D317F007397DB /* Main.storyboard */; };
 		9038618D1D0D317F007397DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9038618C1D0D317F007397DB /* Assets.xcassets */; };
 		903861901D0D317F007397DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9038618E1D0D317F007397DB /* LaunchScreen.storyboard */; };
-		9038619B1D0D317F007397DB /* EffectDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038619A1D0D317F007397DB /* EffectDemoTests.swift */; };
-		903861A61D0D317F007397DB /* EffectDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903861A51D0D317F007397DB /* EffectDemoUITests.swift */; };
 		903861B41D0D44D8007397DB /* TMHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903861B31D0D44D8007397DB /* TMHomeController.swift */; };
 		903861B91D0E5423007397DB /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903861B81D0E5423007397DB /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		903861971D0D317F007397DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9038617A1D0D317F007397DB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 903861811D0D317F007397DB;
-			remoteInfo = EffectDemo;
-		};
-		903861A21D0D317F007397DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9038617A1D0D317F007397DB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 903861811D0D317F007397DB;
-			remoteInfo = EffectDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		903861821D0D317F007397DB /* EffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +22,8 @@
 		9038618C1D0D317F007397DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9038618F1D0D317F007397DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		903861911D0D317F007397DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		903861961D0D317F007397DB /* EffectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9038619A1D0D317F007397DB /* EffectDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectDemoTests.swift; sourceTree = "<group>"; };
 		9038619C1D0D317F007397DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		903861A11D0D317F007397DB /* EffectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		903861A51D0D317F007397DB /* EffectDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectDemoUITests.swift; sourceTree = "<group>"; };
 		903861A71D0D317F007397DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		903861B31D0D44D8007397DB /* TMHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMHomeController.swift; sourceTree = "<group>"; };
@@ -53,20 +32,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		9038617F1D0D317F007397DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		903861931D0D317F007397DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9038619E1D0D317F007397DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				903861821D0D317F007397DB /* EffectDemo.app */,
-				903861961D0D317F007397DB /* EffectDemoTests.xctest */,
-				903861A11D0D317F007397DB /* EffectDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,42 +111,6 @@
 			productReference = 903861821D0D317F007397DB /* EffectDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		903861951D0D317F007397DB /* EffectDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 903861AD1D0D317F007397DB /* Build configuration list for PBXNativeTarget "EffectDemoTests" */;
-			buildPhases = (
-				903861921D0D317F007397DB /* Sources */,
-				903861931D0D317F007397DB /* Frameworks */,
-				903861941D0D317F007397DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				903861981D0D317F007397DB /* PBXTargetDependency */,
-			);
-			name = EffectDemoTests;
-			productName = EffectDemoTests;
-			productReference = 903861961D0D317F007397DB /* EffectDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		903861A01D0D317F007397DB /* EffectDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 903861B01D0D317F007397DB /* Build configuration list for PBXNativeTarget "EffectDemoUITests" */;
-			buildPhases = (
-				9038619D1D0D317F007397DB /* Sources */,
-				9038619E1D0D317F007397DB /* Frameworks */,
-				9038619F1D0D317F007397DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				903861A31D0D317F007397DB /* PBXTargetDependency */,
-			);
-			name = EffectDemoUITests;
-			productName = EffectDemoUITests;
-			productReference = 903861A11D0D317F007397DB /* EffectDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +124,7 @@
 				TargetAttributes = {
 					903861811D0D317F007397DB = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					903861951D0D317F007397DB = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 903861811D0D317F007397DB;
-					};
-					903861A01D0D317F007397DB = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 903861811D0D317F007397DB;
+						DevelopmentTeam = 5RGHWN8FRF;
 					};
 				};
 			};
@@ -222,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				903861811D0D317F007397DB /* EffectDemo */,
-				903861951D0D317F007397DB /* EffectDemoTests */,
-				903861A01D0D317F007397DB /* EffectDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +154,6 @@
 				903861901D0D317F007397DB /* LaunchScreen.storyboard in Resources */,
 				9038618D1D0D317F007397DB /* Assets.xcassets in Resources */,
 				9038618B1D0D317F007397DB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		903861941D0D317F007397DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9038619F1D0D317F007397DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,36 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		903861921D0D317F007397DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9038619B1D0D317F007397DB /* EffectDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9038619D1D0D317F007397DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				903861A61D0D317F007397DB /* EffectDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		903861981D0D317F007397DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 903861811D0D317F007397DB /* EffectDemo */;
-			targetProxy = 903861971D0D317F007397DB /* PBXContainerItemProxy */;
-		};
-		903861A31D0D317F007397DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 903861811D0D317F007397DB /* EffectDemo */;
-			targetProxy = 903861A21D0D317F007397DB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		903861891D0D317F007397DB /* Main.storyboard */ = {
@@ -359,6 +234,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -397,6 +273,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -406,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RGHWN8FRF;
 				INFOPLIST_FILE = EffectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.EffectDemo";
@@ -417,56 +295,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RGHWN8FRF;
 				INFOPLIST_FILE = EffectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.EffectDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		903861AE1D0D317F007397DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = EffectDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.EffectDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectDemo.app/EffectDemo";
-			};
-			name = Debug;
-		};
-		903861AF1D0D317F007397DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = EffectDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.EffectDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectDemo.app/EffectDemo";
-			};
-			name = Release;
-		};
-		903861B11D0D317F007397DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = EffectDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.EffectDemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = EffectDemo;
-			};
-			name = Debug;
-		};
-		903861B21D0D317F007397DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = EffectDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.EffectDemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = EffectDemo;
 			};
 			name = Release;
 		};
@@ -489,22 +322,7 @@
 				903861AC1D0D317F007397DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		903861AD1D0D317F007397DB /* Build configuration list for PBXNativeTarget "EffectDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				903861AE1D0D317F007397DB /* Debug */,
-				903861AF1D0D317F007397DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		903861B01D0D317F007397DB /* Build configuration list for PBXNativeTarget "EffectDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				903861B11D0D317F007397DB /* Debug */,
-				903861B21D0D317F007397DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
