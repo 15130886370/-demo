@@ -37,12 +37,24 @@ class TMHomeController: UIViewController {
         let vc3 = MyTableViewController()
         vc3.title = "社会"
         addChildViewController(vc3)
+        let vc4 = MyTableViewController()
+        vc4.title = "科技"
+        addChildViewController(vc4)
+        let vc5 = MyTableViewController()
+        vc5.title = "信息"
+        addChildViewController(vc5)
+        let vc6 = MyTableViewController()
+        vc6.title = "动画"
+        addChildViewController(vc6)
+        let vc7 = MyTableViewController()
+        vc7.title = "游戏"
+        addChildViewController(vc7)
     }
 
     private func setUpTitle() {
         let labelWidth: CGFloat = UIScreen.main.bounds.width / 3
         
-        for i in 0 ..< 3 {
+        for i in 0 ..< 7 {
             let title = UILabel(frame: CGRect(x: labelWidth * CGFloat(i), y: 0, width: labelWidth, height: 34))
             title.text = childViewControllers[i].title
             title.backgroundColor = UIColor.gray
@@ -53,7 +65,7 @@ class TMHomeController: UIViewController {
             let guest = UITapGestureRecognizer.init(target: self, action: #selector(labelTap(tap:)))
             title.addGestureRecognizer(guest)
         }
-        titleScroll.contentSize = CGSize(width: UIScreen.main.bounds.width, height: 0)
+        titleScroll.contentSize = CGSize(width: labelWidth * 7, height: 0)
 
         contentScroll.contentSize = CGSize(width: UIScreen.main.bounds.width * 7, height: 0)
         contentScroll.delegate = self
@@ -112,7 +124,7 @@ extension TMHomeController: UIScrollViewDelegate {
         //如果控制器已经加载了,就不要再次计算frame了
         if willShowVC.isViewLoaded { return }
 
-        willShowVC.view.frame = CGRect(x: offsetX, y: 100, width: width, height: height)
+        willShowVC.view.frame = CGRect(x: offsetX, y: 0.0, width: width, height: height)
         
         scrollView.addSubview(willShowVC.view)
         

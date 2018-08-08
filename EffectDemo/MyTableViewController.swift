@@ -17,6 +17,8 @@ class MyTableViewController: UITableViewController {
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: identifier)
         navigationController?.navigationBar.isTranslucent = false
+
+        tableView.showsVerticalScrollIndicator = false
     }
 
     // MARK: - Table view data source
